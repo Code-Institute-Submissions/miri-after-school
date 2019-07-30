@@ -11,7 +11,7 @@
 }
 
 .bg-color-company-info {
-    background-color: #f4f4f4;
+    background-color: #e67e22;
 }
 
 .bg-color-milestone {
@@ -71,6 +71,7 @@ h4 {
     float: none;
 }
 
+.company-info-heading,
 .milestone-heading,
 .section-heading {
     font-family: "Exo", sans-serif;
@@ -237,8 +238,17 @@ footer {
 
 /* ------------------------------------Company info */
 
+.company-info-heading {
+    color: #fafafa;
+    margin-bottom: 50px;
+}
+
 .company-info-item {
-    margin-bottom: 20px;
+    color: #525252;
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 15px;
+    margin-right: 15px;
     display: block;
     clear: both;
 }
@@ -255,8 +265,8 @@ footer {
 }
 
 .company-info-item .key {
-    width: 28%;
-    margin-right: 21px;
+    width: 20%;
+    margin-right: 15px;
     padding-top: 2px;
     vertical-align: top;
 }
@@ -267,7 +277,7 @@ footer {
 
 .company-info-item .value {
     position: relative;
-    width: 60%;
+    width: 80%;
 }
 
 /* ------------------------------------Skills */
@@ -288,7 +298,14 @@ footer {
 }
 
 .progress-section {
-    margin: 40px 20px;
+    margin: 30px 15px;
+}
+
+.picture {
+    background: url("../images/togetherness.jpg");
+    background-repeat: no-repeat;
+    min-height: 430px;
+    width: 105%;
 }
 
 /* ------------------------------------Milestone */
