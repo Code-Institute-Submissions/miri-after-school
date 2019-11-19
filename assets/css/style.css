@@ -301,13 +301,6 @@ footer {
     margin: 30px 15px;
 }
 
-.picture {
-    background: url("../images/togetherness.jpg");
-    background-repeat: no-repeat;
-    min-height: 430px;
-    width: 105%;
-}
-
 /* ------------------------------------Milestone */
 
 .milestone-heading {
