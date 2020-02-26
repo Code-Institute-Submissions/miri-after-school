@@ -1,80 +1,99 @@
-      __     __         ___           ____
-     |  \   /  |       /   \         (  __| 
-     |   \ /   |      / /_\ \         \ \ 
-     | |\ V /| | _   / _____ \   _   __) \  _
-     |_| \_/ |_||_| /_/     \_\ |_| |____/  |_| 
- ------------------------------------------------
+<h3 align="left">
+User Design Experience - Milestone Project 1
+</h3>
+
+<h3 align="center">
+<img src="assets/images/togetherness.jpg" width=420>
+</h3>
 
 
-Hi there! Welcome to # H1 Miri After School
+<div align="center"> 
 
-To get started, create some files, play with the terminal,
-or visit https://docs.aws.amazon.com/console/cloud9/ for our documentation.
+[Miri After School](https://ngukting.github.io/miri-after-school/) consists of a team of passionate carer for elders & kids with a wealth of diverse life and care experience that we bring to every client.
+<br><br>
+[**Visit Us Today!**](https://ngukting.github.io/miri-after-school/)
 
-Happy coding!
-# miri-after-school
+</div>
 
-One or two paragraphs providing an overview of your project.
+# Miri After School Website
+## Contents
 
-Essentially, this part is your sales pitch.
+1. ## UX
 
-UX
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+Miri After School Website is mobile-first responsive for mobile and desktop viewing.
+The main set up idea of this website was to introduce contemporary idealogy of children and elderly co-living 
+in a centre via internet broadcasting.
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
+2. ## Features
 
-As a user type, I want to perform an action, so that I can achieve a goal.
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+There are basically four viewing pages linked on the website; namely Home, Flagship, Contact and Download.  
+Download is working properly where Miri After School brochure in PDF can be obtained.
+Contact will be further developed to enable prompting inquiries.
 
-Features
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+3. ## Technologies Applied
 
-Existing Features
-Feature 1 - allows users X to achieve Y, by having them fill out Z
-...
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
+This project applied the below as the languages and tools in the web development. 
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+- [HTML5](https://en.wikipedia.org/wiki/HTML5)
+    is HyperText Markup Language.
+- [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+    is Cascading Style Sheets.
+- [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+    is a high-level, interpreted programming language.
+- [PyCharm](https://www.jetbrains.com/pycharm/)
+    is the IDE used to develop the website.
+- [GitHub](https://github.com/)
+    is used: 
+    1. as a remote backup of code used in the project.
+    2. as a remote server for another user to see the code used in the project.
+    3. for users to view the deployed version of the website. The deployed version can be viewed [here!](https://ngukting.github.io/miri-after-school/).
+- [Bootstrap](https://www.bootstrapcdn.com/)
+    is used to create easier & cleaner responsiveness in addition with helping maintain padding and margins.
+    It's also used to include modal features to the website to give it a professional look.
+- [JQuery](https://jquery.com)
+    is used to simplify DOM manipulation.
 
-Features Left to Implement
-Another feature idea
-Technologies Used
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+4. ## Testing 
+ 
+All pages were tested locally and on GitHub using Google Chrome, Internet Explorer or Safari developer 
+tools. 
+The tests were mainly checking the responsiveness of all pages in different sizes, 
+using iPhone5/6/7/8/X, Galaxy android phones, iPad 1/2/3/Pro and desktop. 
+All links were tested. 
+The contact form was tested by ability to submit empty or incomplete form. 
 
-JQuery
-The project uses JQuery to simplify DOM manipulation.
-Testing
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+5. ## Deployment
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+The project was built using [AWS Educate](https://aws.amazon.com/education/awseducate/) where the project is committed & pushed to [GitHub](https://github.com/).
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+- To view the deployed version of [Miri After School](https://ngukting.github.io/miri-after-school/) I needed to take the following steps:
+    1. Log in to [GitHub](https://github.com/).
+    2. Select **miri-after-school** from the list of repositories.
+    3. Select **Settings** from the navbar near the top of the page.
+    4. Scroll down to where it says **Github Pages**, there is a subtitle labelled **Source**, click that and change the source to be **master branch**.
 
-Contact form:
-Go to the "Contact Us" page
-Try to submit the empty form and verify that an error message about the required fields appears
-Try to submit the form with an invalid email address and verify that a relevant error message appears
-Try to submit the form with all inputs valid and verify that a success message appears.
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+The page is automatically refreshed and ready for deployment, it can take up to 5-10 minutes for it to be viewable.
+One may add this repository to local workspace by cloning. For further information on cloning,
+ visit [How to clone from GitHub](https://help.github.com/en/articles/cloning-a-repository).
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+6. ## Credits
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+### Content
+- All content are original ideas of the Developer, who is also the founder of Miri After School.
 
-Deployment
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+### Media
+- The logo for the website was commercially created as Miri After School business logo in 2014. 
+- Other than the logo, images used on the website are for educational purposes only.
+   
+### Acknowledgements and Inspiration
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
+- This project has got its inspiration from several websites:
 
-Different values for environment variables (Heroku Config Vars)?
-Different configuration files?
-Separate git branch?
-In addition, if it is not obvious, you should also describe how to run your code locally.
+[Elder Home Share](https://www.elderhomeshare.ie/)
+[CoLiving.com](https://coliving.com/)
 
-Credits
-Content
-The text for section Y was copied from the Wikipedia article Z
-Media
-The photos used in this site were obtained from ...
-Acknowledgements
-I received inspiration for this project from X
+A sincere thank you to my mentor - Spencer Barriball - for the precious times and guidances.
+
+7. ## Disclaimer
+
+All content on the website, including images, are used for educational purposes only.
